@@ -12,6 +12,7 @@ services:
       - demo-network
   backend:
     image: marcelormourao/backend
+    container_name: backend
     ports: 
       - "8080:8080"
     networks: 
@@ -20,6 +21,7 @@ services:
       - db
   frontend:
     image: marcelormourao/frontend
+    container_name: frontend
     ports: 
       - "80:80"
     networks: 
