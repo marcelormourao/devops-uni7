@@ -6,7 +6,7 @@
 #### Run in Docker
 1. Build images and run containers
 ```bash
-docker-compose up -f docker-compose-build.yml --build
+docker-compose -f docker-compose-build.yml up --build
 ```
 2. Using deployed images
 ```bash
